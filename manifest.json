@@ -1,0 +1,32 @@
+{
+  "background": {
+    "page": "popup.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/logo.png",
+      "38": "images/logo.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Tag my url"
+  },
+  "description": "This plugin will help you to easily find and tag your urls.",
+  "icons": {
+    "128": "images/logo.png",
+    "256": "images/logo.png",
+    "16": "images/logo.png",
+    "48": "images/logo.png"
+  },
+  "manifest_version": 2,
+  "name": "Tag my url",
+  "short_name": "Tag my url",
+  "omnibox": {
+    "keyword": "tmu"
+  },
+  "permissions": [
+    "clipboardWrite" , "tabs" , "storage"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.0"
+}
