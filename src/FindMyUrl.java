@@ -16,7 +16,6 @@ public class FindMyUrl {
     public static void main(String[] args) {
         HashMap<String, String> urlNTags = readFile("/Users/ayush.agarwal/code/TagMyUrl/resources/urls");
         LinkedHashSet<String> permuted = permuteSearchPattern(searchPattern);
-        git add .
 
         TreeMap<Integer, LinkedHashSet<String>> bestFitUrlsRaw = new TreeMap<>();
         for (Map.Entry<String, String> entry : urlNTags.entrySet()) {
